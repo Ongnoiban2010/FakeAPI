@@ -1,0 +1,242 @@
+{
+  "categories": [
+    {
+      "id": "b863c144-ee72-42ce-8fe4-e61607ad0afe",
+      "name": "Kids",
+      "createAt": 1659281646403,
+      "updateAt": 1659281646403
+    },
+    {
+      "id": "39786b2e-a239-4b0d-acf9-8f2f9045dc73",
+      "name": "Movies",
+      "createAt": 1659281646405,
+      "updateAt": 1659281646405
+    },
+    {
+      "id": "707b1121-321a-4c31-85ef-600bad30eb3e",
+      "name": "Tools",
+      "createAt": 1659281646413,
+      "updateAt": 1659281646413
+    },
+    {
+      "id": "1638638c-1168-4e58-8511-277430df2631",
+      "name": "Electronics",
+      "createAt": 1659281646415,
+      "updateAt": 1659281646416
+    }
+  ],
+  "products": [
+    {
+      "id": "841f7f0a-97e3-4f41-810c-8002b1fe1c7c",
+      "name": "Gorgeous Plastic Gloves",
+      "price": 994,
+      "description": "The Football Is Good For Training And Recreational Purposes",
+      "createAt": 1659281646427,
+      "updateAt": 1659281646427,
+      "thumnailUrl": "http://placeimg.com/400/400",
+      "categoryId": "b863c144-ee72-42ce-8fe4-e61607ad0afe"
+    },
+    {
+      "id": "6d3f458f-bfc5-475d-ab4a-0eb828c42487",
+      "name": "Tasty Metal Gloves",
+      "price": 337,
+      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "createAt": 1659281646430,
+      "updateAt": 1659281646430,
+      "thumnailUrl": "http://placeimg.com/400/400",
+      "categoryId": "b863c144-ee72-42ce-8fe4-e61607ad0afe"
+    },
+    {
+      "id": "d1582912-a5c3-4122-bf20-6d502e035d8a",
+      "name": "Awesome Plastic Salad",
+      "price": 215,
+      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "createAt": 1659281646432,
+      "updateAt": 1659281646432,
+      "thumnailUrl": "http://placeimg.com/400/400",
+      "categoryId": "b863c144-ee72-42ce-8fe4-e61607ad0afe"
+    },
+    {
+      "id": "d82be690-85f3-4291-b5e9-20caa54597b0",
+      "name": "Handcrafted Steel Car",
+      "price": 913,
+      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "createAt": 1659281646434,
+      "updateAt": 1659281646434,
+      "thumnailUrl": "http://placeimg.com/400/400",
+      "categoryId": "b863c144-ee72-42ce-8fe4-e61607ad0afe"
+    },
+    {
+      "id": "3f94ef95-44b9-424a-8340-e63cb621690f",
+      "name": "Refined Metal Shoes",
+      "price": 960,
+      "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "createAt": 1659281646439,
+      "updateAt": 1659281646439,
+      "thumnailUrl": "http://placeimg.com/400/400",
+      "categoryId": "b863c144-ee72-42ce-8fe4-e61607ad0afe"
+    },
+    {
+      "id": "8eb4bdb2-eaae-474a-a649-51f9995b731a",
+      "name": "Small Cotton Bacon",
+      "price": 93,
+      "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "createAt": 1659281646440,
+      "updateAt": 1659281646440,
+      "thumnailUrl": "http://placeimg.com/400/400",
+      "categoryId": "39786b2e-a239-4b0d-acf9-8f2f9045dc73"
+    },
+    {
+      "id": "3bdbac59-7de0-4a19-8b5d-3f1ed42a6f66",
+      "name": "Ergonomic Metal Car",
+      "price": 751,
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "createAt": 1659281646441,
+      "updateAt": 1659281646441,
+      "thumnailUrl": "http://placeimg.com/400/400",
+      "categoryId": "39786b2e-a239-4b0d-acf9-8f2f9045dc73"
+    },
+    {
+      "id": "10069e19-06d8-4b96-bd98-e204a45ed813",
+      "name": "Intelligent Frozen Car",
+      "price": 163,
+      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "createAt": 1659281646442,
+      "updateAt": 1659281646442,
+      "thumnailUrl": "http://placeimg.com/400/400",
+      "categoryId": "39786b2e-a239-4b0d-acf9-8f2f9045dc73"
+    },
+    {
+      "id": "439dbe8f-55e1-4017-890f-22e8e2c6f7a8",
+      "name": "Handmade Rubber Cheese",
+      "price": 238,
+      "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+      "createAt": 1659281646446,
+      "updateAt": 1659281646446,
+      "thumnailUrl": "http://placeimg.com/400/400",
+      "categoryId": "39786b2e-a239-4b0d-acf9-8f2f9045dc73"
+    },
+    {
+      "id": "7ca042ff-3b56-4b14-a4bd-97191c108097",
+      "name": "Rustic Cotton Chips",
+      "price": 795,
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "createAt": 1659281646447,
+      "updateAt": 1659281646447,
+      "thumnailUrl": "http://placeimg.com/400/400",
+      "categoryId": "39786b2e-a239-4b0d-acf9-8f2f9045dc73"
+    },
+    {
+      "id": "4fff6ddd-bce3-4a1b-afbb-ee2b11f23b4c",
+      "name": "Intelligent Frozen Hat",
+      "price": 78,
+      "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "createAt": 1659281646448,
+      "updateAt": 1659281646448,
+      "thumnailUrl": "http://placeimg.com/400/400",
+      "categoryId": "707b1121-321a-4c31-85ef-600bad30eb3e"
+    },
+    {
+      "id": "dbe1dc74-3608-442b-b1d6-f8932c24e923",
+      "name": "Licensed Soft Shirt",
+      "price": 41,
+      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "createAt": 1659281646449,
+      "updateAt": 1659281646449,
+      "thumnailUrl": "http://placeimg.com/400/400",
+      "categoryId": "707b1121-321a-4c31-85ef-600bad30eb3e"
+    },
+    {
+      "id": "0b3c481e-853d-438c-9b35-43e05fcc0f89",
+      "name": "Fantastic Rubber Towels",
+      "price": 332,
+      "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "createAt": 1659281646450,
+      "updateAt": 1659281646450,
+      "thumnailUrl": "http://placeimg.com/400/400",
+      "categoryId": "707b1121-321a-4c31-85ef-600bad30eb3e"
+    },
+    {
+      "id": "7e4b930c-f12f-4b37-ac94-5873a130afe2",
+      "name": "Intelligent Frozen Soap",
+      "price": 80,
+      "description": "The Football Is Good For Training And Recreational Purposes",
+      "createAt": 1659281646451,
+      "updateAt": 1659281646451,
+      "thumnailUrl": "http://placeimg.com/400/400",
+      "categoryId": "707b1121-321a-4c31-85ef-600bad30eb3e"
+    },
+    {
+      "id": "6ad2dbc7-3196-40c1-8a58-04c98606c9b3",
+      "name": "Handmade Granite Table",
+      "price": 783,
+      "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "createAt": 1659281646452,
+      "updateAt": 1659281646452,
+      "thumnailUrl": "http://placeimg.com/400/400",
+      "categoryId": "707b1121-321a-4c31-85ef-600bad30eb3e"
+    },
+    {
+      "id": "66f2db4e-18d8-4eb3-b3ad-94c15fad27bf",
+      "name": "Practical Frozen Ball",
+      "price": 481,
+      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "createAt": 1659281646452,
+      "updateAt": 1659281646452,
+      "thumnailUrl": "http://placeimg.com/400/400",
+      "categoryId": "1638638c-1168-4e58-8511-277430df2631"
+    },
+    {
+      "id": "9de71475-b208-4117-9da6-ea57af57d0ba",
+      "name": "Intelligent Granite Sausages",
+      "price": 976,
+      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "createAt": 1659281646453,
+      "updateAt": 1659281646453,
+      "thumnailUrl": "http://placeimg.com/400/400",
+      "categoryId": "1638638c-1168-4e58-8511-277430df2631"
+    },
+    {
+      "id": "f5a5564a-a92a-44d8-aa39-c6ded8ae6874",
+      "name": "Refined Plastic Towels",
+      "price": 331,
+      "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "createAt": 1659281646454,
+      "updateAt": 1659281646454,
+      "thumnailUrl": "http://placeimg.com/400/400",
+      "categoryId": "1638638c-1168-4e58-8511-277430df2631"
+    },
+    {
+      "id": "7093e945-9f9d-4fed-9b6b-9f35e56ba7a1",
+      "name": "Generic Fresh Soap",
+      "price": 237,
+      "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+      "createAt": 1659281646454,
+      "updateAt": 1659281646454,
+      "thumnailUrl": "http://placeimg.com/400/400",
+      "categoryId": "1638638c-1168-4e58-8511-277430df2631"
+    },
+    {
+      "id": "97d9316e-5a0c-4365-8362-7a10bb268a7a",
+      "name": "Incredible Cotton Towels",
+      "price": 920,
+      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "createAt": 1659281646458,
+      "updateAt": 1659281646458,
+      "thumnailUrl": "http://placeimg.com/400/400",
+      "categoryId": "1638638c-1168-4e58-8511-277430df2631"
+    },
+    {
+      "name": "Laptop 234",
+      "price": "131.00",
+      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "thumnailUrl": "http://placeimg.com/400/400",
+      "createdAt": 1659317889134,
+      "updateAt": 1659317947083,
+      "id": "nj5_G2j"
+    }
+  ],
+  "profile": {
+    "name": "Pro"
+  }
+}
