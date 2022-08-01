@@ -44,16 +44,38 @@ const randomProductList = (categoryList, numberOfProduct) => {
     return productList;
 }
 
+const randomImageList = (productList, numberOfImage) => {
+    if (numberOfImage <= 0) return [];
+    const imageList = [];
+    // random data
+    for (const product of productList) {
+        Array.from(new Array(numberOfImage)).forEach(() => {
+            const image = {
+                id: faker.random.uuid(),
+                name: faker.commerce.productName(),
+                createAt: Date.now(),
+                updateAt: Date.now(),
+                thumnailUrl: faker.image.imageUrl(400, 400),
+                productId: product.id
+            };
+            imageList.push(image);
+        })
+    }
+    return imageList;
+}
+
 // IFFE
 (() => {
     // random data
     const categoryList = randomCategoryList(4);
     const productList = randomProductList(categoryList, 5);
+    const imageList = randomImageList(productList, 3);
 
     // prepare db object
     const db = {
         categories: categoryList,
         products: productList,
+        images: imageList,
         profile: {
             name: 'Pro'
         }
