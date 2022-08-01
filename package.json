@@ -16,11 +16,11 @@
   "license": "MIT",
   "dependencies": {
     "json-server": "^0.17.0",
+    "faker": "^5.5.3",
     "query-string": "^7.1.1"
   },
   "devDependencies": {
     "casual": "^1.6.2",
-    "faker": "^5.5.3",
     "nodemon": "^2.0.19"
   }
 }
