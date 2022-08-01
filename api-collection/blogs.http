@@ -1,0 +1,54 @@
+@baseUrl=http://localhost:4200/api
+@resourceName=blogs
+
+# @name getAll
+GET {{baseUrl}}/{{resourceName}}
+
+###
+
+# @name filter
+GET {{baseUrl}}/{{resourceName}}?name=Laptop&price_gte=200
+
+###
+
+# @name filter
+GET {{baseUrl}}/{{resourceName}}?name_like=Steel 
+
+###
+
+# @name pagination
+GET {{baseUrl}}/{{resourceName}}?_page=2&_limit=5
+
+###
+
+# @name sort
+GET {{baseUrl}}/{{resourceName}}?_sort=createAt&_order=desc&_limit=2
+
+###
+
+# @name addNew
+POST {{baseUrl}}/{{resourceName}}
+Content-Type: application/json
+
+{
+    "name": "Laptop",
+    "price": "131.00",
+    "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+    "thumnailUrl": "http://placeimg.com/400/400"
+}
+
+###
+# @name update
+PATCH  {{baseUrl}}/{{resourceName}}/nj5_G2j
+Content-Type: application/json
+
+{
+    "name": "Laptop 234",
+    "price": "131.00",
+    "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+    "thumnailUrl": "http://placeimg.com/400/400"
+}
+
+###
+# @name remove
+DELETE {{baseUrl}}/{{resourceName}}/G2CDawP
