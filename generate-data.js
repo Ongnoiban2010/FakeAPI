@@ -44,6 +44,25 @@ const randomProductList = (categoryList, numberOfProduct) => {
     return productList;
 }
 
+const randomBlogList = (n) => {
+    if (n <= 0) return [];
+    const blogList = [];
+
+    Array.from(new Array(n)).forEach(() => {
+        const blog = {
+            id: faker.random.uuid(),
+            name: faker.commerce.department(),
+            description: faker.commerce.productDescription(),
+            createAt: Date.now(),
+            updateAt: Date.now(),
+            thumnailUrl: faker.image.imageUrl(400, 400),
+            content: faker.lorem.paragraph()
+        };
+        blogList.push(blog);
+    })
+    return blogList;
+}
+
 const randomImageList = (productList, numberOfImage) => {
     if (numberOfImage <= 0) return [];
     const imageList = [];
@@ -70,12 +89,14 @@ const randomImageList = (productList, numberOfImage) => {
     const categoryList = randomCategoryList(4);
     const productList = randomProductList(categoryList, 5);
     const imageList = randomImageList(productList, 3);
+    const blogList = randomBlogList(4);
 
     // prepare db object
     const db = {
         categories: categoryList,
         products: productList,
         images: imageList,
+        blogs: blogList,
         profile: {
             name: 'Pro'
         }
