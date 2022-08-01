@@ -6,6 +6,11 @@ GET {{baseUrl}}/{{resourceName}}
 
 ###
 
+# @name get
+GET {{baseUrl}}/{{resourceName}}/5c14440b-5bcb-41bf-9397-17800b32c8d5
+
+###
+
 # @name filter
 GET {{baseUrl}}/{{resourceName}}?name=Laptop&price_gte=200
 
