@@ -6,8 +6,18 @@ GET {{baseUrl}}/{{resourceName}}
 
 ###
 
+# @name getAll
+GET {{baseUrl}}/{{resourceName}}?_sort=createAt&_order=desc&_limit=4
+
+###
+
 # @name filter
 GET {{baseUrl}}/{{resourceName}}?name=Laptop&price_gte=200
+
+###
+
+# @name filter
+GET {{baseUrl}}/{{resourceName}}?id_ne=474a1532-dd6a-42d9-afcf-a04817ae02dh&&categoryId=26b4e7fb-8a62-4b59-8489-ab5609141242
 
 ###
 
